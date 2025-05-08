@@ -1,0 +1,4 @@
+Starting off with a small demo project we have PokemonVR. The main reason I want to try to make this is the lack of 
+VR for this franchise, for good reason. The main mechanic I would want to focus on is being able to actually throw
+a pokeball, although battling would be pretty nice too. VR makes gaming more immersive and being able to genunily 
+throw (with wrist strap attached) would be quite fun to experience. 

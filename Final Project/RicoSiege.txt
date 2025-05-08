@@ -1,0 +1,4 @@
+RicoSiege is a mix between Ricochet and Siege which is a 3d stealth game. The Focul point in this game is the fighting Mechanic.
+You are very bouncy, being able to leap off any surface you land on, bouncing all over the place. You
+are taksed with eliminating all who get in your way of Sieging the Castle. bounce around confusing enemies, 
+chain your attacks together for devestating combos and Aim for weak points as you pass by. 

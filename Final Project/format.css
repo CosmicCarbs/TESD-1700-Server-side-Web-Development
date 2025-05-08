@@ -1,0 +1,332 @@
+@charset "utf-8";
+
+html {
+    background-color: gray;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+
+div.chxbox {
+    text-align: left;
+    line-height: 20px;
+    margin: auto;
+    width:220px;
+}
+
+#portrait{
+    float: left;
+    border: solid 10px black;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+
+#bio{
+    margin-right: 3%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#PokemonTundra {
+    background: linear-gradient(to right, green 0%, black 0%);
+    color: white;
+}
+#EternalWinter {
+    background: linear-gradient(to right, green 0%, black 0%);
+    color: white;
+}
+#UpgradeAcademy {
+    background: linear-gradient(to right, green 0%, black 0%);
+    color: white;
+}
+h2#Ricosiege {
+    background: linear-gradient(to right, green 0%, black 0%);
+    color: white;
+}
+#OfAngelsOfDemons {
+    background: linear-gradient(to right, green 0%, black 0%);
+    color: white;
+}
+#PokemonVR {
+    background: linear-gradient(to right, green 0%, black 0%);
+    color: white;
+}
+#A60SecsIsland {
+    background: linear-gradient(to right, green 0%, black 0%);
+    color: white;
+}
+#NS_SeaTurtle {
+    background: linear-gradient(to right, green 0%, black 0%);
+    color: white;
+}
+#BestGame {
+    background: linear-gradient(to right, green 0%, black 0%);
+    color: white;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titlehead {
+    background-color: gray;
+    text-align: center;
+    display: block;
+    
+}
+
+.titlehead h1,
+.titlehead h2 {
+    display: flex;
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.titlehead h1 {
+    background-color: darkcyan;
+    color: white;
+    text-decoration: underline;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+#logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+div.columns > h3 {
+    display: inline-block;
+    background-color: darkcyan;
+    padding: .2em;
+    border-radius: 10px;
+}
+#columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+    padding: 20px;
+}
+
+.columns {
+    flex: 1;
+    border: 5px solid black;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: darkgray;
+}
+
+.main-nav {
+    background-color: darkcyan;
+    padding: 1rem;
+    position: absolute; 
+    left: 50%;
+    transform: translate(-50%);         
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu-item {
+    position: relative;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+.menu-item.dropdown:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: darkgray;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    min-width: 200px;
+    padding: 0.5rem 0;
+    z-index: 999;
+}
+
+.submenu-item {
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    color: black;
+    background-color: darkgray;
+}
+
+.submenu-item:hover {
+    background-color: lightgray;
+}
+
+.sub-submenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: darkgray;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    min-width: 200px;
+    padding: 0.5rem 0;
+    z-index: 999;
+}
+
+.sub-submenu > li:hover {
+    background-color: lightgray;
+}
+
+.sub-submenu > li:hover a, .sub-submenu > li a{
+    color: black;
+}
+
+.sub-submenu li {
+    padding: 0.5rem 1rem; 
+    margin-bottom: 0.3rem; 
+}
+.sub-submenu li:last-child {
+    margin-bottom: 0; 
+}
+
+.dropdown:hover > .submenu, .submenu-item.dropdown:hover > .sub-submenu {
+    display: block;
+}
+
+.container {
+    display: flex;
+    height: 50vh; 
+    border: 5px solid #333;
+}
+
+.column.images img {
+    width: 200px; 
+    height: auto; 
+    float: left;
+    margin: 5px;
+}
+  
+.column {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+  
+.images img {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+  
+.images {
+    background-color: lightgray;
+    max-width: 50%; 
+    border-right: 5px solid #333;
+}
+  
+.text {
+    background-color: lightgray;
+    max-width: 50%; 
+}
+
+img#timeline {
+    width: 100%;
+}
+
+div.timeline {
+    position: relative;
+    width: 100%;
+}
+
+img.ThumbNail {
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0.3); 
+    width: 30%; 
+    height: auto;
+    transition: ease-in 0.5s;  
+    border: solid 15px black;
+}
+
+img#PkmnTundra {
+    top: 23%; 
+    left: 6%;
+}
+img#EternalWinter {
+    top: 23%; 
+    left: 28%;
+}
+img#UpgradeAcademy {
+    top: 23%;
+    left: 50%;
+}
+img#Ricoseige {
+    top: 23%; 
+    left: 72%;
+}
+img#OfAngelsOfDemons {
+    top: 23%;
+    left: 94.3%;
+}
+img#PkmnVR {
+    top: 75%; 
+    left: 17%;
+}
+img#A60SecsIsland {
+    top: 75%; 
+    left: 39%;
+}
+img#NS_SeaTurtle {
+    top: 75%; 
+    left: 61%;
+}
+img#BestGame{
+    top: 75%; 
+    left: 83%;
+}

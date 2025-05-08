@@ -1,0 +1,5 @@
+Welcome to Upgrade Academy in order to graduate from this University you have to take 1st place in a Tournament with your...
+Little Buddy? Pick any Major to study in and you'll have a little buddy fight for you. Geneticists have a Creature. 
+Engineers have a Robot and Wizards have a Golem. This will be a classic 2d figher but as
+you go along you will be able to upgrade your little buddy each major specializing in different types of upgrades. 
+Similar to a Rougelike. Do you have what it takes to Graduate from this esteemed Academy? 
